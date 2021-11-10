@@ -81,7 +81,7 @@ variable "key_name" {
 
 variable "zone_id" {
   type        = string
-  default     = "Z07173933UX8PXKU4UCR5"
+  default     = "Z0316813CHGSR83NJNTD"
   description = "Route53 hosted zone ids"
 }
 variable "origin_id" {
@@ -170,7 +170,7 @@ variable "ssl_support_method" {
   default = "sni-only"
 }
 variable "domain_name" {
-  default = "mehmetafsar.com"
+  default = "mehmetafsar.net"
 }
 variable "cname" {
   default = "capstone"

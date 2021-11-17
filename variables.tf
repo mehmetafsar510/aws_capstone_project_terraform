@@ -184,7 +184,7 @@ variable "identifier" {
   default = "aws-capstone-rds"
 }
 variable "backup_window" {
-  default = "22:00-03:00"
+  default = "22:00-04:00"
 }
 variable "maintenance_window" {
   default = "Sun:03:00-Sun:04:00"
